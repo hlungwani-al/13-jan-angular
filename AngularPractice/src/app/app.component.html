@@ -1,7 +1,10 @@
-<h1>
-  Enter username: <input type="text" id="userName" [(ngModel)]="userName" placeholder="username" /><br /><br />
-  Hello {{userName}}, are you ready to get started.<br />
+<body [ngStyle]="{'background-color':color}">
+  <h1>
+    Enter username: <input type="text" id="userName" [(ngModel)]="userName" placeholder="username" /><br /><br />
+    Hello {{userName}}, are you ready to get started.<br />
 
-  Enter email: <input [(ngModel)]="email" /><br />
-  <span> {{email}} </span>
-</h1>
+    Enter email: <input [(ngModel)]="email" /><br />
+    Enter color: <input type="color" [(ngModel)]="color" />
+    <span> {{email}} </span>
+  </h1>
+</body>

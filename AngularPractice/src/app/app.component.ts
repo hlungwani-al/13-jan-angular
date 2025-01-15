@@ -15,4 +15,5 @@ export class AppComponent {
   title = 'AngularPractice';
   userName: String = '';
   email:String = '';
+  color:String = 'grey';
 }
